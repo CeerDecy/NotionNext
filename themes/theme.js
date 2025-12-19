@@ -63,6 +63,7 @@ export const getThemeConfig = async themeQuery => {
 export const getBaseLayoutByTheme = theme => {
   const LayoutBase = ThemeComponents['LayoutBase']
   const isDefaultTheme = !theme || theme === BLOG.THEME
+  console.log("====>", isDefaultTheme)
   if (!isDefaultTheme) {
     return dynamic(
       () => import(`@/themes/${theme}`).then(m => m['LayoutBase']),
