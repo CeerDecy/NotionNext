@@ -5,7 +5,7 @@ const CONFIG = {
   TYPOGRAPHY_BLOG_NAME_EN:
     process.env.NEXT_PUBLIC_TYPOGRAPHY_BLOG_NAME_EN ||
     process.env.NEXT_PUBLIC_TYPOGRAPHY_BLOG_NAME ||
-    'CeerDecy',
+    '努力成为Rustaceans的Gopher',
 
   TYPOGRAPHY_POST_AD_ENABLE:
     process.env.NEXT_PUBLIC_TYPOGRAPHY_POST_AD_ENABLE || false, // 文章列表是否插入广告
